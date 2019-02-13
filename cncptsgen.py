@@ -60,7 +60,7 @@ def generator():
         auth_val = soup.findAll("input", {"name": "authenticity_token"}) # grabs hidden authenticity token from source
         auth_final = auth_val[0]["value"]
 
-        api_key = 'faec17e0ddf795ab53a39e709e75290f' # api key from anticaptcha
+        api_key = '' # api key from anticaptcha
         site_key = '6LeoeSkTAAAAAA9rkZs5oS82l69OEYjKRZAiKdaF' # site key from concepts
         cap_url = submit_info.url
 
